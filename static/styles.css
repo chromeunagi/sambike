@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(17, 34, 45);
+    font-family: 'Roboto';
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+div.left {
+    float: left;
+    width: 20%;
+    height: 1000px;
+    position: fixed;
+    background-color: rgb(17, 34, 45);
+}
+
+div.right {
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 1000px;
+    background-color: rgb(18, 39, 52);
+    line-height: 125%;
+}
+
+div.rightInner {
+    width: 700px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration: none
+    color: #0e192d;
+    color: rgb(14, 25, 30);
+}
+
+li a:hover {
+    color: #ffffff;
+}
